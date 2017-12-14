@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thayn.officecars.andamento"
+    tools:showIn="@layout/activity_andamento">
+
+    <TextView
+        android:id="@+id/progresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Progresso do Serviço"
+        android:textSize="25dp"
+        android:textType="serif"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Progresso do Serviço" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="202dp"
+        android:layout_height="165dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="54dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/realizados"
+        android:layout_width="354dp"
+        android:layout_height="27dp"
+        android:text="Serviços realizados"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="237dp"
+        tools:text="Serviços realizados" />
+
+    <TextView
+        android:id="@+id/servico1"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text="Troca de bateria"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="271dp"
+        tools:text="Troca de bateria" />
+
+    <TextView
+        android:id="@+id/servico2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polimento"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="295dp"
+        tools:text="Polimento" />
+
+    <CheckedTextView
+        android:id="@+id/atual"
+        android:layout_width="351dp"
+        android:layout_height="26dp"
+        android:text="Serviço atual"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:text="Serviço atual" />
+
+    <TextView
+        android:id="@+id/servico3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpeza técnica do motor"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="358dp"
+        tools:text="Limpeza técnica do motor" />
+
+    <CheckedTextView
+        android:id="@+id/proximos"
+        android:layout_width="351dp"
+        android:layout_height="26dp"
+        android:text="Próximos serviços"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="384dp"
+        tools:text="Próximos serviços" />
+
+    <TextView
+        android:id="@+id/servico4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Troca de óleo lubrificante"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="417dp"
+        tools:text="Troca de óleo lubrificante" />
+
+    <TextView
+        android:id="@+id/servico5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpeza do ar condicionado"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="443dp"
+        tools:text="Limpeza do ar condicionado" />
+
+</android.support.constraint.ConstraintLayout>
